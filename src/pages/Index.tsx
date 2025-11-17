@@ -49,11 +49,11 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 w-full bg-primary/95 backdrop-blur-sm z-50 border-b border-white/10 shadow-lg">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3 bg-white/10 px-4 py-2 rounded-lg hover:bg-white/20 transition-all">
+          <div className="flex items-center gap-3">
             <img 
               src="https://cdn.poehali.dev/files/f933edb4-3d0c-4aa9-94ce-c86128a6ad11.png" 
               alt="Промстройпроект" 
-              className="h-16 w-auto drop-shadow-lg"
+              className="h-16 w-auto drop-shadow-2xl"
             />
           </div>
           <nav className="hidden md:flex items-center gap-8">
@@ -260,13 +260,11 @@ const Index = () => {
       <footer className="bg-primary text-white py-12 px-4 border-t border-white/10">
         <div className="container mx-auto">
           <div className="flex flex-col items-center gap-6">
-            <div className="bg-white/10 px-6 py-3 rounded-lg">
-              <img 
-                src="https://cdn.poehali.dev/files/f933edb4-3d0c-4aa9-94ce-c86128a6ad11.png" 
-                alt="Промстройпроект" 
-                className="h-20 w-auto drop-shadow-lg"
-              />
-            </div>
+            <img 
+              src="https://cdn.poehali.dev/files/f933edb4-3d0c-4aa9-94ce-c86128a6ad11.png" 
+              alt="Промстройпроект" 
+              className="h-24 w-auto drop-shadow-2xl"
+            />
             <p className="text-white/80 text-center">© 2010-2025 ООО «Промстройпроект». Все права защищены.</p>
           </div>
         </div>
