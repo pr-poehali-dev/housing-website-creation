@@ -48,10 +48,13 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 w-full bg-primary/95 backdrop-blur-sm z-50 border-b border-white/10">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Icon name="Building" className="text-accent" size={32} />
-            <span className="text-xl font-bold text-white">Промстройпроект</span>
+        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/files/f933edb4-3d0c-4aa9-94ce-c86128a6ad11.png" 
+              alt="Промстройпроект" 
+              className="h-12 w-auto"
+            />
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#about" className="text-white/90 hover:text-accent transition-colors">О компании</a>
