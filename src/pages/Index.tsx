@@ -59,6 +59,7 @@ const Index = () => {
           <nav className="hidden md:flex items-center gap-8">
             <a href="#about" className="text-white/90 hover:text-accent transition-colors">О компании</a>
             <a href="#services" className="text-white/90 hover:text-accent transition-colors">Услуги</a>
+            <a href="#equipment" className="text-white/90 hover:text-accent transition-colors">Спецтехника</a>
             <a href="#contact" className="text-white/90 hover:text-accent transition-colors">Контакты</a>
           </nav>
           <Button asChild className="bg-accent hover:bg-accent/90">
@@ -167,6 +168,107 @@ const Index = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="equipment" className="py-20 px-4 bg-muted/30">
+        <div className="container mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 text-center animate-fade-in">
+            Спецтехника
+          </h2>
+          <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
+            Современный парк строительной техники для выполнения работ любой сложности
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Card className="group overflow-hidden border-2 hover:border-accent transition-all hover:shadow-2xl">
+              <div className="relative h-56 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/projects/97cf3b11-3eab-4d7a-bea9-b77687eac818/files/6ac70217-cc7f-45f1-8131-a63d8eab59b2.jpg" 
+                  alt="Экскаваторы"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <Icon name="Hammer" className="text-white" size={28} />
+                </div>
+              </div>
+              <CardContent className="p-5">
+                <h3 className="text-lg font-bold text-primary mb-2 group-hover:text-accent transition-colors">
+                  Экскаваторы
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  Гусеничные и колёсные экскаваторы для земляных работ
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="group overflow-hidden border-2 hover:border-accent transition-all hover:shadow-2xl">
+              <div className="relative h-56 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/projects/97cf3b11-3eab-4d7a-bea9-b77687eac818/files/4e64dbd5-9c9a-4508-9f49-946f48605eae.jpg" 
+                  alt="Бульдозеры"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <Icon name="Construction" className="text-white" size={28} />
+                </div>
+              </div>
+              <CardContent className="p-5">
+                <h3 className="text-lg font-bold text-primary mb-2 group-hover:text-accent transition-colors">
+                  Бульдозеры
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  Мощная техника для планировки и перемещения грунта
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="group overflow-hidden border-2 hover:border-accent transition-all hover:shadow-2xl">
+              <div className="relative h-56 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/projects/97cf3b11-3eab-4d7a-bea9-b77687eac818/files/c9c88b11-bda6-4231-b81e-d60d2ef219c3.jpg" 
+                  alt="Автокраны"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <Icon name="Crane" className="text-white" size={28} />
+                </div>
+              </div>
+              <CardContent className="p-5">
+                <h3 className="text-lg font-bold text-primary mb-2 group-hover:text-accent transition-colors">
+                  Автокраны
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  Подъёмная техника различной грузоподъёмности
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="group overflow-hidden border-2 hover:border-accent transition-all hover:shadow-2xl">
+              <div className="relative h-56 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/projects/97cf3b11-3eab-4d7a-bea9-b77687eac818/files/466c2ba4-3604-406c-a911-e5c0e03fc754.jpg" 
+                  alt="Самосвалы"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <Icon name="Truck" className="text-white" size={28} />
+                </div>
+              </div>
+              <CardContent className="p-5">
+                <h3 className="text-lg font-bold text-primary mb-2 group-hover:text-accent transition-colors">
+                  Самосвалы
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  Грузовая техника для транспортировки материалов
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
